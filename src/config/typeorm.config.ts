@@ -9,4 +9,7 @@ export const typeOrmConfig: TypeOrmModuleOptions = {
   database: 'd26hied6o1m316',
   autoLoadEntities: true,
   synchronize: true,
+  //   dropSchema: false,
+  //   logging: true,
+  extra: { ssl: { rejectUnauthorized: false } },
 };
